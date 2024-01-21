@@ -1,13 +1,77 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>LaTeX Rendering with MathJax</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <h1>LaTeX Rendering Example</h1>
-    <p>This is an example of a LaTeX equation rendered in HTML using MathJax:</p>
-    <p>\\[ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\]</p>
+    <div id="div1" class="b" style="display: none;" align="center">Hello {{Name}},
+        <br>my name is Tom Riddle
+    </div>
+    <div id="div2" class="b" style="display: none;" align="center">What would you like to
+        <br>know about?
+        <br>
+        <br>
+    </div>
+    <div id="hp" class="a" style="display: none;" align="center">
+        Harry Potter
+    </div>
+    <div id="hp2" class="b" style="display: none;" align="center">
+        Harry Potter?
+        <br>
+        <br>What a familiar name.
+        <br>I've wanted to meet
+        <br>him for quite some
+        <br>time.
+    </div>
+    <div id="hc" class="a" style="display: none;" align="center">
+        Horcruxes
+    </div>
+    <div id="hc2" class="b" style="display: none;" align="center">
+        This is dark magic.
+        <br>
+        <br>It is the process of
+        <br>splitting one's soul
+        <br>and binding it to an
+        <br>object...
+        <br>
+        <br>or so I've heard.
+    </div>
+    <div id="vm" class="a" style="display: none;" align="center">
+        Voldemort
+    </div>
+    <div id="vm2" class="b" style="display: none;" align="center">
+        I have not heard
+        <br>of him.
+    </div>
+    <div id="cs" class="a" style="display: none;" align="center">
+        Do you know anything
+        <br>about the Chamber
+        <br>of Secrets?
+    </div>
+    <div id="cs2" class="b" style="display: none;" align="center">
+        Yes
+    </div>
+    <div id="csA" class="a" style="display: none;" align="center">
+        Nevermind
+    </div>
+    <div id="csB" class="a" style="display: none;" align="center">
+        Can you tell me?
+    </div>
+    <div id="cs3" class="b" style="display: none;" align="center">
+        No
+    </div>
+    <div id="cs4" class="b" style="display: none;" align="center">
+        But I can show you
+    </div>
+    <div id="div3" style="display: none;" align="center"><a href="https://www.wizardingworldhollywood.com/"
+            target="_parent">Follow me</a><br><br>and don't forget your<br><br><a href="url.com"
+            target="_blank">Hogwart's<br>Acceptance Letter</a></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
