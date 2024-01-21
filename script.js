@@ -78,7 +78,7 @@
           $("#cs3").delay(3500).fadeIn(2000, function() {
             $("#cs3").delay(2000).fadeOut(2000, function() {
               $("#cs4").delay(3500).fadeIn(2000, function() {
-                var audio = new Audio('https://dl.dropbox.com/s/bs640vy38tsvmk4/Hedwig%27s%20Theme.mp3');
+                var audio = new Audio('https://audio-ssl.itunes.apple.com/itunes-assets/Music/80/69/82/mzm.sfvkfbim.aac.p.m4a');
                 audio.play();
                 $("#cs4").delay(3000).fadeOut(2000, function() {
                   $("#div3").delay(3000).fadeIn(5000)
